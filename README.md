@@ -58,3 +58,6 @@ Deflate algorithm uses combination of LZ77 and Huffman algorithms and is much mo
 ![](https://drive.google.com/uc?export=view&amp;id=1_s5gi1oKQoT_jsRBcnYxaVhY6MuXt9lx)
 
 Due to the fact that each character of the text is generated separately, the compression algorithm cannot find blocks to copy, but deflate is much more efficient than lz 77 and can reduce the size even in such situations.
+
+
+# Conclusions
