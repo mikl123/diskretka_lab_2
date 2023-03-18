@@ -42,6 +42,8 @@ Let`s also check time the Huffman code algorithm take to code data:
 
 `LZ77 algorithm:`
 
+https://github.com/mikl123/diskretka_lab_2/blob/main/LZW/lzw.py
+
 
 LZ77 algorithms achieve compression by replacing repeated occurrences of data with references to a single copy of that data existing earlier in the uncompressed data stream. 
 
