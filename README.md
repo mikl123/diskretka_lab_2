@@ -61,3 +61,8 @@ Due to the fact that each character of the text is generated separately, the com
 
 
 # Conclusions
+
+- LZW works well for compressing text and image files containing repeated patterns, as it can achieve good compression ratios. It is often used in the GIF image format.
+- LZ77 is effective for compressing text files and works well when there are many repeated patterns in the data. Now it is often used in the Deflate algorithm, which is used in the ZIP and gzip file formats.
+- Huffman coding works well for compressing text files and other data types where certain symbols occur more frequently than others.
+- Deflate works well for compressing a wide range of data types, including text, images, and other binary data.
