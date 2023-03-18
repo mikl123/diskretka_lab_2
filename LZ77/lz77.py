@@ -107,6 +107,6 @@ class Lz77:
         """
         Count compressing efficiency
         """
-        compressed_len = len(self.coded_message)*3
+        compressed_len = len(self.coded_message)*6
         text_len=len(self.text)
         return 100-((compressed_len / text_len)*100)
