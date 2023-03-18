@@ -50,3 +50,11 @@ LZ77 algorithms achieve compression by replacing repeated occurrences of data wi
 
 You can see on the graph that the execution time of the compressed algorithm strongly depends on the size of the search block and the size of the front block. It can also be seen that with an increase in the size of the search block and the size of the front block, the amount of compression increases. You can achieve even greater compression if you increase the block sizes even more, but this will greatly affect the execution time.
 
+
+`Deflate algorithm:`
+
+Deflate algorithm uses combination of LZ77 and Huffman algorithms and is much more effective than LZ77.
+
+![](https://drive.google.com/uc?export=view&amp;id=1_s5gi1oKQoT_jsRBcnYxaVhY6MuXt9lx)
+
+Due to the fact that each character of the text is generated separately, the compression algorithm cannot find blocks to copy, but deflate is much more efficient than lz 77 and can reduce the size even in such situations.
