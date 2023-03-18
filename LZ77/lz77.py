@@ -1,3 +1,4 @@
+from typing import List
 class Lz77:
     """
     Lz77 Compressing method
@@ -92,11 +93,13 @@ class Lz77:
     @staticmethod
     def decode_from_str(codes):
         """
-        Decoder for string (needed for deflate) 
+        Decoder for deflayte
         """
         text = ""
-        codes = codes.split(",")
-        codes = [(codes[i],codes[i+1],codes[i+2]) for i in range(0,len(codes),3)]
+        codes = codes.split("..")
+        codes = [
+            (codes[i], codes[i + 1], str(codes[i + 2][1:-1])) for i in range(0, len(codes), 3)
+        ]
         for code in codes:
             small_list = text[len(text) - int(code[0]) :]
             for k in range(0, int(code[1])):

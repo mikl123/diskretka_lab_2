@@ -42,7 +42,7 @@ class Deflate:
 
     def decode(self) -> str:
         """
-        Decode deflate algorithm.
+        Decode deflayte
         """
         lz_str = str(
             self.haffman.decode()
