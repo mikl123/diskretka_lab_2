@@ -48,7 +48,7 @@ https://github.com/mikl123/diskretka_lab_2/blob/main/LZW/lzw.py
 
 
 LZ77 algorithms achieve compression by replacing repeated occurrences of data with references to a single copy of that data existing earlier in the uncompressed data stream. 
-lz77 comprassed Introduction to Algorithms 3rd Edition in ![image](https://user-images.githubusercontent.com/69431189/226125757-104db7c5-04e6-47a0-8508-a7298158660c.png)
+lz77 comprassed Introduction to Algorithms 3rd Edition in ![image](https://user-images.githubusercontent.com/69431189/226125757-104db7c5-04e6-47a0-8508-a7298158660c.png)%
 
 ![](https://drive.google.com/uc?export=view&amp;id=1NLxpuI9qZ6hr7g_0TFAApwobM2lMcw0-)
 
