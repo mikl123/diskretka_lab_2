@@ -30,3 +30,23 @@ The below graphics ilustate time of endoding and decoding of LZW:
 
 
 So we can see that time that LZW algorithm takes to decode and encode data almost linearly depends on the size of input data.
+
+`Huffman code algorithm:`
+
+Huffman coding is a lossless data compression algorithm. In this algorithm, a variable-length code is assigned to input different characters. The code length is related to how frequently characters are used. Most frequent characters have the smallest codes and longer codes for least frequent characters.
+
+Let`s also check time the Huffman code algorithm take to code data:
+
+![](https://drive.google.com/uc?export=view&amp;id=1EBEEFbd49-MAE7-YlyjG2brOilURz4NB)
+
+
+`LZ77 algorithm:`
+
+
+LZ77 algorithms achieve compression by replacing repeated occurrences of data with references to a single copy of that data existing earlier in the uncompressed data stream. 
+
+![](https://drive.google.com/uc?export=view&amp;id=1NLxpuI9qZ6hr7g_0TFAApwobM2lMcw0-)
+
+
+You can see on the graph that the execution time of the compressed algorithm strongly depends on the size of the search block and the size of the front block. It can also be seen that with an increase in the size of the search block and the size of the front block, the amount of compression increases. You can achieve even greater compression if you increase the block sizes even more, but this will greatly affect the execution time.
+
