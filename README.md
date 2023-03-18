@@ -16,6 +16,8 @@ The below diagram shows all the classes that we`ve implemented:
 
 `LZW algorithm:`
 
+https://github.com/mikl123/diskretka_lab_2/blob/main/LZW/lzw.py
+
 LZW is a 'dictionary-based' lossless compression algorithm that scans a file for data patterns that appear more than once. In this way compression of files that have many string that repeats is much more effective.
 
 Let`s measure the time LZW algorithm takes based on different length of input string.
