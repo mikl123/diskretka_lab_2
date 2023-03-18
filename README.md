@@ -22,4 +22,4 @@ The below graphics ilustate time of endoding and decoding of LZW:
 ![](https://drive.google.com/uc?export=view&amp;id=1Asn23fgfhqHzm9BRH_6RafTFwXhYJ-ZmrPAx7y983ro)
 
 
-
+So we can see that time that LZW algorithm takes to decode and encode data almost linearly depends on the size of input data.
