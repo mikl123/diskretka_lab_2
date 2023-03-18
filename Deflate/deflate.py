@@ -24,15 +24,11 @@ class Deflate:
         code = lz77.lz77_encode()
         code_str = (
             str(code)
-            .replace("[", "")
-            .replace("]", "")
-            .replace(")", "")
-            .replace("(", "")
-            .replace("'", "")
-            .replace(", ",",")
+            .replace(", ", "..")
+            .replace(")..(", "..")
             .replace("0", self.special_0)
             .replace("1", self.special_1)
-        )
+        )[2:][:-2]
         haffman = HuffmanCode(code_str)
         self.haffman = haffman
         prob = haffman.calculate_frequency()
